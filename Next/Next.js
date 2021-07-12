@@ -36,9 +36,7 @@ export default class Next extends Sprite {
   }
 
   *whenthisspriteclicked() {
-    this.stage.costume = "level";
-    this.broadcast("level");
-    yield* this.wait(1);
+window.loacation.href="http://127.0.0.1:3000/Level3H/";
   }
 
   *whenIReceiveResult() {
